@@ -54,7 +54,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY2 }}
+        key: ${{ secrets.SSH_KEY3 }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker pull tsygikalo/infra_actions:latest
